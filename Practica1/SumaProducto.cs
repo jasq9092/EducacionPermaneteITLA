@@ -16,7 +16,8 @@ namespace Practica1
             int suma;
             int producto;
 
-
+            Console.WriteLine("Este programa realiza la suma y la multiplicacion de dos numeros ingresados por pantalla");
+            Console.WriteLine("---------------------------------------------------------------");
             Console.WriteLine("Ingrese un numero: ");
             num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ingrese otro numero: ");
