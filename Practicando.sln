@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumaProducto", "Practica1\SumaProducto.csproj", "{0120B88B-A8A2-4333-A38D-AFFFDDB9D76B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculandoSueldo", "CalculandoSueldo\CalculandoSueldo.csproj", "{43C9E730-3127-4E13-8A52-985164F26ECD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0120B88B-A8A2-4333-A38D-AFFFDDB9D76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0120B88B-A8A2-4333-A38D-AFFFDDB9D76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0120B88B-A8A2-4333-A38D-AFFFDDB9D76B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C9E730-3127-4E13-8A52-985164F26ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C9E730-3127-4E13-8A52-985164F26ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C9E730-3127-4E13-8A52-985164F26ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C9E730-3127-4E13-8A52-985164F26ECD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
