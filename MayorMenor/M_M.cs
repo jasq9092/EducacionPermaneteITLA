@@ -14,32 +14,96 @@ namespace MayorMenor
             decimal num1;
             int num2;
             decimal div = 0m;
+            int Opcion = 0;
 
-            Console.WriteLine("Ingrese el 1er Numero: ");
-            num1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Ingrese el 2do Numero: ");
-            num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Elija una de las opciones:");
+            Console.WriteLine("Opcion 1 Mayor y Menor");
+            Console.WriteLine("Opcion 2 Promedio de notas");
+            Console.WriteLine("Opcion 3 Promedio de notas");
+            Opcion= Convert.ToInt32(Console.ReadLine());
 
-            try
+            switch (Opcion)
             {
-                if (num1 > num2)
-                {
-                    Console.WriteLine($"La suma es:{num1 + num2} ");
-                    Console.WriteLine($"Diferencia:{num1 - num2} ");
-                }
-                else
-                {
-                    Console.WriteLine($"El producto es: {num1 * num2}");
+                case 1:
+                    try
+                    {
+                        Console.WriteLine("Ingrese el 1er Numero: ");
+                        num1 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Ingrese el 2do Numero: ");
+                        num2 = Convert.ToInt32(Console.ReadLine());
+                       
 
-                    div = Convert.ToDecimal(num1 / num2);
-                    Console.WriteLine($"La divicion es: {div}");
+                        if (num1 > num2)
+                        {
+                            Console.WriteLine($"La suma es:{num1 + num2} ");
+                            Console.WriteLine($"Diferencia:{num1 - num2} ");
+                        }
+                        else
+                        {
+                            Console.WriteLine($"El producto es: {num1 * num2}");
 
-                }
+                            div = Convert.ToDecimal(num1 / num2);
+                            Console.WriteLine($"La divicion es: {div}");
+
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+
+                break;
+
+                    case 2:
+                    
+                    
+                    Console.WriteLine("1ra Nota: ");
+                    double not1 = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("2da Nota: ");
+                    double not2 = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("3ra Nota: ");
+                    double not3 = Convert.ToInt32(Console.ReadLine());
+
+                    double Promedio = (not1 + not2 + not3)/3;
+
+                    if(Promedio >= 7)
+                    {
+                        Console.WriteLine("Promovido");
+                    }else
+                    {
+                        Console.WriteLine("Se quemo");
+                    }
+
+
+                    break;
+                    case 3:
+                    Console.WriteLine("1ra Nota: ");
+                    double n1 = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("2da Nota: ");
+                    double n2 = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("3ra Nota: ");
+                    double n3 = Convert.ToInt32(Console.ReadLine());
+
+                    double Promedio2 = (n1 + n2 + n3) / 3;
+
+                    if (Promedio2 >= 7)
+                    {
+                        Console.WriteLine("Promovido");
+                    }
+                    else if (Promedio2 >= 4 && Promedio2 < 7)
+                    {
+                        Console.WriteLine("Regular");
+                    }
+                    else if(Promedio2 <4)
+                    {
+                        Console.WriteLine("Reprobado");
+                    }
+
+                    break;
+
             }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+            
+            
           
         }
 
