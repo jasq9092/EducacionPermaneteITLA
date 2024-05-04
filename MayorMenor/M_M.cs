@@ -78,13 +78,13 @@ namespace MayorMenor
                     break;
                     case 3:
                     Console.WriteLine("1ra Nota: ");
-                    double n1 = Convert.ToInt32(Console.ReadLine());
+                    decimal n1 = Convert.ToDecimal(Console.ReadLine());
                     Console.WriteLine("2da Nota: ");
-                    double n2 = Convert.ToInt32(Console.ReadLine());
+                    decimal n2 = Convert.ToDecimal(Console.ReadLine());
                     Console.WriteLine("3ra Nota: ");
-                    double n3 = Convert.ToInt32(Console.ReadLine());
+                    decimal n3 = Convert.ToDecimal(Console.ReadLine());
 
-                    double Promedio2 = (n1 + n2 + n3) / 3;
+                    decimal Promedio2 = (n1 + n2 + n3) / 3;
 
                     if (Promedio2 >= 7)
                     {
