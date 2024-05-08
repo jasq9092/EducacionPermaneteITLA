@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cuadrado", "Cuadrado\Cuadra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4Numeros", "4Numeros\4Numeros.csproj", "{F046A397-772C-4C5E-8E8A-88A156705067}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumaPromedio", "SumaPromedio\SumaPromedio.csproj", "{F6632759-823E-4B33-85F6-A31976DD6E53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{F046A397-772C-4C5E-8E8A-88A156705067}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F046A397-772C-4C5E-8E8A-88A156705067}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F046A397-772C-4C5E-8E8A-88A156705067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6632759-823E-4B33-85F6-A31976DD6E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6632759-823E-4B33-85F6-A31976DD6E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6632759-823E-4B33-85F6-A31976DD6E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6632759-823E-4B33-85F6-A31976DD6E53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
