@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplo", "Multiplo\Multip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cuadrado", "Cuadrado\Cuadrado.csproj", "{6E67AC6D-D6A4-439F-A1E5-716D2CC2AA26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4Numeros", "4Numeros\4Numeros.csproj", "{F046A397-772C-4C5E-8E8A-88A156705067}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6E67AC6D-D6A4-439F-A1E5-716D2CC2AA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E67AC6D-D6A4-439F-A1E5-716D2CC2AA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E67AC6D-D6A4-439F-A1E5-716D2CC2AA26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F046A397-772C-4C5E-8E8A-88A156705067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F046A397-772C-4C5E-8E8A-88A156705067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F046A397-772C-4C5E-8E8A-88A156705067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F046A397-772C-4C5E-8E8A-88A156705067}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
