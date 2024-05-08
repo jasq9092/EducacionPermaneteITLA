@@ -54,52 +54,73 @@ namespace MayorMenor
 
                 break;
 
+                   
                     case 2:
-                    
-                    
-                    Console.WriteLine("1ra Nota: ");
-                    double not1 = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("2da Nota: ");
-                    double not2 = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("3ra Nota: ");
-                    double not3 = Convert.ToInt32(Console.ReadLine());
-
-                    double Promedio = (not1 + not2 + not3)/3;
-
-                    if(Promedio >= 7)
+                    try
                     {
-                        Console.WriteLine("Promovido");
-                    }else
+
+                        Console.WriteLine("1ra Nota: ");
+                        double not1 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("2da Nota: ");
+                        double not2 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("3ra Nota: ");
+                        double not3 = Convert.ToInt32(Console.ReadLine());
+
+                        double Promedio = (not1 + not2 + not3) / 3;
+
+                        if (Promedio >= 7)
+                        {
+                            Console.WriteLine("Promovido");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Se quemo");
+                        }
+
+                        }
+                    catch(Exception ex)
                     {
-                        Console.WriteLine("Se quemo");
+                        Console.WriteLine(ex.Message);
+
                     }
-
-
                     break;
+
                     case 3:
-                    Console.WriteLine("1ra Nota: ");
-                    decimal n1 = Convert.ToDecimal(Console.ReadLine());
-                    Console.WriteLine("2da Nota: ");
-                    decimal n2 = Convert.ToDecimal(Console.ReadLine());
-                    Console.WriteLine("3ra Nota: ");
-                    decimal n3 = Convert.ToDecimal(Console.ReadLine());
-
-                    decimal Promedio2 = (n1 + n2 + n3) / 3;
-
-                    if (Promedio2 >= 7)
+                    try
                     {
-                        Console.WriteLine("Promovido");
-                    }
-                    else if (Promedio2 >= 4 && Promedio2 < 7)
-                    {
-                        Console.WriteLine("Regular");
-                    }
-                    else if(Promedio2 <4)
-                    {
-                        Console.WriteLine("Reprobado");
-                    }
+                        Console.WriteLine("1ra Nota: ");
+                        decimal n1 = Convert.ToDecimal(Console.ReadLine());
+                        Console.WriteLine("2da Nota: ");
+                        decimal n2 = Convert.ToDecimal(Console.ReadLine());
+                        Console.WriteLine("3ra Nota: ");
+                        decimal n3 = Convert.ToDecimal(Console.ReadLine());
 
+                        decimal Promedio2 = (n1 + n2 + n3) / 3;
+
+                        if (Promedio2 >= 7)
+                        {
+                            Console.WriteLine("Promovido");
+                        }
+                        else if (Promedio2 >= 4 && Promedio2 < 7)
+                        {
+                            Console.WriteLine("Regular");
+                        }
+                        else if (Promedio2 < 4)
+                        {
+                            Console.WriteLine("Reprobado");
+                        }
+                       
+                    }
+                    
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+                    
                     break;
+
+
+
 
             }
             

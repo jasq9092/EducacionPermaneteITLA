@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculandoSueldo", "Calcula
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MayorMenor", "MayorMenor\MayorMenor.csproj", "{A947D521-EBFA-4982-A80C-5CEED78D3239}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplo", "Multiplo\Multiplo.csproj", "{1BA4946D-2B57-4F16-8A6C-E75FB3C234E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A947D521-EBFA-4982-A80C-5CEED78D3239}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A947D521-EBFA-4982-A80C-5CEED78D3239}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A947D521-EBFA-4982-A80C-5CEED78D3239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA4946D-2B57-4F16-8A6C-E75FB3C234E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA4946D-2B57-4F16-8A6C-E75FB3C234E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA4946D-2B57-4F16-8A6C-E75FB3C234E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA4946D-2B57-4F16-8A6C-E75FB3C234E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
