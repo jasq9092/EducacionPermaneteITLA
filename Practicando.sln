@@ -7,19 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumaProducto", "Practica1\S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculandoSueldo", "CalculandoSueldo\CalculandoSueldo.csproj", "{43C9E730-3127-4E13-8A52-985164F26ECD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MayorMenor", "MayorMenor\MayorMenor.csproj", "{A947D521-EBFA-4982-A80C-5CEED78D3239}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MayorMenor", "MayorMenor\MayorMenor.csproj", "{A947D521-EBFA-4982-A80C-5CEED78D3239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplo", "Multiplo\Multiplo.csproj", "{1BA4946D-2B57-4F16-8A6C-E75FB3C234E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiplo", "Multiplo\Multiplo.csproj", "{1BA4946D-2B57-4F16-8A6C-E75FB3C234E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cuadrado", "Cuadrado\Cuadrado.csproj", "{6E67AC6D-D6A4-439F-A1E5-716D2CC2AA26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cuadrado", "Cuadrado\Cuadrado.csproj", "{6E67AC6D-D6A4-439F-A1E5-716D2CC2AA26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4Numeros", "4Numeros\4Numeros.csproj", "{F046A397-772C-4C5E-8E8A-88A156705067}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4Numeros", "4Numeros\4Numeros.csproj", "{F046A397-772C-4C5E-8E8A-88A156705067}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumaPromedio", "SumaPromedio\SumaPromedio.csproj", "{F6632759-823E-4B33-85F6-A31976DD6E53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumaPromedio", "SumaPromedio\SumaPromedio.csproj", "{F6632759-823E-4B33-85F6-A31976DD6E53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notas", "Notas\Notas.csproj", "{07E65BC2-88A3-4481-B5F9-91C0CB3D72A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notas", "Notas\Notas.csproj", "{07E65BC2-88A3-4481-B5F9-91C0CB3D72A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumDig", "NumDig\NumDig.csproj", "{CCC534E0-3167-41B7-8DC8-1431005E7457}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumDig", "NumDig\NumDig.csproj", "{CCC534E0-3167-41B7-8DC8-1431005E7457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estructura_repetición_for", "Estructura_repetición_for\Estructura_repetición_for.csproj", "{8363E23D-DCAF-4466-B0F3-94C62A5E824D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{CCC534E0-3167-41B7-8DC8-1431005E7457}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCC534E0-3167-41B7-8DC8-1431005E7457}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCC534E0-3167-41B7-8DC8-1431005E7457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8363E23D-DCAF-4466-B0F3-94C62A5E824D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8363E23D-DCAF-4466-B0F3-94C62A5E824D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8363E23D-DCAF-4466-B0F3-94C62A5E824D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8363E23D-DCAF-4466-B0F3-94C62A5E824D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
