@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerfilesHierro", "PerfilesH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10Notas", "10Notas\10Notas.csproj", "{153DCF7D-132A-41C2-AD9B-E36FD9EF2168}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpleadosSueldos", "EmpleadosSueldos\EmpleadosSueldos.csproj", "{D1024B28-28D7-40AF-9DC3-F912EA7E4A20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{153DCF7D-132A-41C2-AD9B-E36FD9EF2168}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{153DCF7D-132A-41C2-AD9B-E36FD9EF2168}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{153DCF7D-132A-41C2-AD9B-E36FD9EF2168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1024B28-28D7-40AF-9DC3-F912EA7E4A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1024B28-28D7-40AF-9DC3-F912EA7E4A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1024B28-28D7-40AF-9DC3-F912EA7E4A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1024B28-28D7-40AF-9DC3-F912EA7E4A20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
