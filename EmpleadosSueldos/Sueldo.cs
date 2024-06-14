@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,6 +11,7 @@ namespace EmpleadosSueldos
     {
         public void SEmpleados()
         {
+            
             int i = 0;
             int sueldo = 0;
             int cont1 = 0;
